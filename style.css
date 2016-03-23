@@ -92,7 +92,7 @@ span#script {
 	display: none;
 }
 /* header styles */
-div#header {
+header {
 	height: 150px;
 	width: 100%;
 	background-color: #222222;

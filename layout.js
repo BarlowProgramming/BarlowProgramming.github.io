@@ -189,4 +189,4 @@ var carousel = function(data) {
 	var carouselInterval = setInterval(moveCarousel, 5000);
 	loadImage(0);
 
-});
+};
