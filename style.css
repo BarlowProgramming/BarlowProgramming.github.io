@@ -7,7 +7,7 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	/* 
+	/*
 	 * considering smallest common screen size is 1024x768
 	 * and that this is the desktop site
 	 */
@@ -61,7 +61,7 @@ h5 {
 }
 h6 {
 	font-size: 0.5em;
-} 
+}
 hr {
 	height: 1px;
 	border: none;
@@ -92,7 +92,7 @@ span#script {
 	display: none;
 }
 /* header styles */
-div#header {
+header {
 	height: 150px;
 	width: 100%;
 	background-color: #222222;
