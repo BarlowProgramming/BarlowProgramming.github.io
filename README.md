@@ -18,9 +18,10 @@
    - To be filled with an overview of projects and assignees
 3. Team
    - Dynamically-loaded BarlowProgramming GitHub organization users
-4. Contact
-   - No contents yet...
    - To be filled with basic contact and recruitment information
+4. News
+   - No contents yet...
+   - Will capture the blog-based features of Jekyll
    
 ### Contact
 Check us out at [our website](http://barlowprogramming.github.io/), or at our [GitHub](https://github.com/BarlowProgramming).
