@@ -1,0 +1,14 @@
+---
+layout: default
+title: News
+---
+<link rel="stylesheet" type="text/css" href="style.css" />
+<h1>Stay up to date:</h1>
+{% for post in site.posts %}
+	<a class="postTitle" href="{{ post.url }}">
+		<article class="postListItem">
+			<div class="title">{{ post.title }}</div>
+			{{ post.excerpt }}
+		</article>
+	</a>
+{% endfor %}

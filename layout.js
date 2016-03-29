@@ -76,7 +76,7 @@ $(function() {
 			<a class="noSelect" href="/">Home</a>
 			<a class="noSelect" href="/projects/">Projects</a>
 			<a class="noSelect" href="/team/">Team</a>
-			<a class="noSelect" href="/contact/">Contact</a>
+			<a class="noSelect" href="/news/">News</a>
 		`;
 		$("nav#links").html(links);
 		highlightCurrent();
