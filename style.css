@@ -11,11 +11,12 @@ body, html {
 	 * considering smallest common screen size is 1024x768
 	 * and that this is the desktop site
 	 */
-	min-height: 700px;
+	min-height: 600px;
 	min-width: 1000px;
 }
 body {
 	padding-top: 150px;
+	min-height: 450px;
 	height: auto;
 }
 
