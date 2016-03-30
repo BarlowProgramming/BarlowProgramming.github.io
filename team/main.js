@@ -25,4 +25,16 @@ function displayUsers(users) {
     )
     $userList.append($userLi)
   }
+  $("a.user-container").hover(
+    function() {
+      var current = $(this).addClass("big");
+	  var row = Math.floor(current.index() / 3);
+	  var userContainers = $("a.user-container:not(.big)");
+	  userContainers.eq(row*3).addClass("small");
+	  userContainers.eq(row*3+1).addClass("small");
+    }, function() {
+      $("a.user-container").removeClass("small").removeClass("big");
+    }	
+  );
 }
+
