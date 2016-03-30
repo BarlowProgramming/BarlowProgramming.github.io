@@ -1,0 +1,23 @@
+[
+	{
+		"username": "ahemenway",
+		"name": "Alex Hemenway"
+	},
+	{
+		"username": "erensnover",
+		"name": "Eren Snover"
+	},
+	{
+		"username": "henrymound",
+		"name": "Henry Mound"
+	},
+	{
+		"username": "jaywunder",
+		"name": "Jacob Wunder"
+	},
+	{
+		"username": "jlam55555",
+		"name": "Jonathan Lam",
+		"details": "<img src='https://projecteuler.net/profile/jlam55555.png' style='display: block; margin: 5px auto' /><img src='http://stackexchange.com/users/flair/2785906.png' style='display: block; margin: 5px auto' />"
+	}
+]

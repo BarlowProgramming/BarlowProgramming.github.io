@@ -11,11 +11,49 @@ a {
   border-radius: 2px;
   padding: 50px 20px;
   box-shadow: 0 0 10px #aaaaaa;
+  vertical-align: middle;
+  overflow: hidden;
 }
-.user-container:hover {
+.user-container.big {
   background-color: #eeeeee;
+  width: calc(80% - 20px);
+}
+.user-container.small {
+  width: calc(10% - 20px);
+  padding: 20px;
+}
+.user-container.small .user-link {
+  display: none;
+}
+.user-container.small .user-picture {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
 }
 
+.user-main-container {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.user-main-container.active {
+	width: calc(100% * 33 / 80 - 20px);
+}
+.user-details-container {
+	width: 0;
+	height: 0;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.user-details-container.active {
+	width: calc(100% * 47 / 80);
+	height: 100%;
+	margin-left: 20px;
+}
+.user-details-container .user-link {
+	padding-bottom: 50px;
+}
 .user-picture {
   display: block;
   width: 200px;
