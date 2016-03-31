@@ -13,11 +13,12 @@
 	},
 	{
 		"username": "jaywunder",
-		"name": "Jacob Wunder"
+		"name": "Jacob Wunder",
+		"details": "<a href=\"http://jacobwunder.com\"><h1>jacobwunder.com</h1></a>"
 	},
 	{
 		"username": "jlam55555",
 		"name": "Jonathan Lam",
-		"details": "<img src='https://projecteuler.net/profile/jlam55555.png' style='display: block; margin: 5px auto' /><img src='http://stackexchange.com/users/flair/2785906.png' style='display: block; margin: 5px auto' />"
+		"details": "<div style='margin:0 20px 20px 20px;padding:20px;color:#444;background-color:rgba(0,0,0,0.05)'>\"First learn computer science and all the theory. Next develop a programming style. Then forget all that and just hack.\"<div style='text-align:right;color:#666;font-size:smaller'>~ George Carrette</div></div><p style='text-align:center'> <strong>Hello, World!</strong> I'm an avid student in computer sciences.</p><p style='text-align:center'> Check out my StackExchange and Project Euler profiles:</p><a href='http://stackexchange.com/users/2785906/jonathan-lam' style='display:block'> <img src='http://stackexchange.com/users/flair/2785906.png' style='display:block;margin:5px auto;'></a><a href='https://projecteuler.net/' style='display:block;'> <img src='https://projecteuler.net/profile/jlam55555.png' style='display: block; margin: 5px auto'></a>"
 	}
 ]

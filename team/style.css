@@ -13,6 +13,7 @@ a {
   box-shadow: 0 0 10px #aaaaaa;
   vertical-align: middle;
   overflow: hidden;
+  height: 400px;
 }
 .user-container.big {
   background-color: #eeeeee;
@@ -21,6 +22,7 @@ a {
 .user-container.small {
   width: calc(10% - 20px);
   padding: 20px;
+  box-shadow: 0 0 10px transparent;
 }
 .user-container.small .user-link {
   display: none;
@@ -52,7 +54,8 @@ a {
 	margin-left: 20px;
 }
 .user-details-container .user-link {
-	padding-bottom: 50px;
+	padding-bottom: 20px;
+	margin-top: 0;
 }
 .user-picture {
   display: block;
