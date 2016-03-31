@@ -18,6 +18,6 @@
 	{
 		"username": "jlam55555",
 		"name": "Jonathan Lam",
-		"details": "<img src='https://projecteuler.net/profile/jlam55555.png' style='display: block; margin: 5px auto' /><img src='http://stackexchange.com/users/flair/2785906.png' style='display: block; margin: 5px auto' />"
+		"details": "<p style='text-align:center'> <strong>Hello, World!</strong> I'm an avid student in computer sciences.</p><p style='text-align:center'> Check out my StackExchange and Project Euler profiles:</p><a href='http://stackexchange.com/users/2785906/jonathan-lam' style='display:block'> <img src='http://stackexchange.com/users/flair/2785906.png' style='display:block;margin:5px auto;'></a><a href='https://projecteuler.net/' style='display:block;'> <img src='https://projecteuler.net/profile/jlam55555.png' style='display: block; margin: 5px auto'></a>"
 	}
 ]
