@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Hello, World!"
-size: "large"
+title: "Yellow Yellow Yellow Yellow Yellow"
 ---
 
 Hello, World! This is a test news / blog page.
