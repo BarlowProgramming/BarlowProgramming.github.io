@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello, World!"
-size: "large"
+title: "Green Day"
+size: "medium"
 ---
 
 Hello, World! This is a test news / blog page.

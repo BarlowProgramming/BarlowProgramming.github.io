@@ -1,22 +1,41 @@
-article.postListItem {
-	width: 100%;
+div#newsList {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	aligh-content: space-around;
+}
+a.postTitle {
 	border-radius: 2px;
 	box-shadow: 0 0 10px #aaaaaa;
+	margin: 10px;
 	padding: 40px;
-	margin-bottom: 20px;
-	transition: all .2s;
+	border-bottom: none;
+	display: block;
+	color: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
-article.postListItem:hover {
+a.postTitle:hover {
 	background-color: #eeeeee;
 }
 a.postTitle {
-	border-bottom: none;
-	color: inherit;
+	flex-basis: 30%;
+	min-height: 200px;
+}
+a.postTitle.medium {
+	flex-basis: 48%;
+	min-height: 300px;
+}
+a.postTitle.large {
+	flex-basis: 90%;
+	min-height: 400px;
 }
 div.title {
 	font-size: 2em;
 }
-article.postListItem > p {
+a.postTitle > p {
 	margin: 20px 0 0 0;
 	padding: 0;
 }
