@@ -4,11 +4,11 @@ title: News
 ---
 <link rel="stylesheet" type="text/css" href="style.css" />
 <h1>Stay up to date:</h1>
-{% for post in site.posts %}
-	<a class="postTitle" href="{{ post.url }}">
-		<article class="postListItem">
-			<div class="title">{{ post.title }}</div>
+<div id="newsList">
+	{% for post in site.posts %}
+		<a class="animate postTitle {{ post.size }}" href="{{ post.url }}">
+			<div class="title">{{ post.title }} <span class="date">{{ post.date | date: "%B %e, %Y" }}</span></div>
 			{{ post.excerpt }}
-		</article>
-	</a>
-{% endfor %}
+		</a>
+	{% endfor %}
+</div>
